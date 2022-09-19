@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+    <h1>Formulario de contacto</h1>
+    <h3>Por favor ingrese sus datos para que pueda atender su consulta </h3>
+    <form action="">
+        <p>
+            <label for="nom">NOMBRE</label>
+            <input type="text" name="Nombre">
+
+            <label for="nom">APELLIDO</label>
+            <input type="text" name="APELLIDO">
+
+            <label for="nom">EMAIL</label>
+            <input type="text" name="EMAIL">
+        </p>
+        <h3>Tipo de consulta</h3>
+        <label for="Tipo">
+            <ul>
+                <li>
+                    <input type="radio" name="consulta" value="técnica">
+                    <label for="CT">Consulta Técnica</label>
+                </li>
+                <li>
+                    <input type="radio" name="consulta" value="personal">
+                    <label for="CP">Consulta Personal</label>
+                </li>
+            </ul>
+        </label>
+        <p>
+        <h3>Consulta</h3>
+        <label for="Consulta"></label>
+        <textarea name="Comentario" cols="130" rows="20">Dejá tu consulta</textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>
